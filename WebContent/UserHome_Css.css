@@ -2,7 +2,10 @@
 			box-sizing: border-box;
 		}
 		body{
-			background-image: url(sandy.jpg);
+			background-image: url(train.jpg);
+			background-position:center;
+			background-size: cover;
+			background-attachment: fixed;
 			background-repeat: no-repeat;
 			margin-left: 10%;
 			margin-right: 10%;
@@ -22,16 +25,14 @@
 			background-color: #ffffcc;
 			border-radius: 10px;
 			text-align: center;
-			margin-left:33%;
-			margin-right: 33.3%;
+			margin: 10px auto;
 			padding:10px;
-			margin-bottom: 10px;
 			color:red;
-			width:600px;
+			max-width:600px;
 		}
 		.menu{
 			border:1px black solid;
-			border-radius: 10px;
+			border-radius: 5px;
 			background-color: white;
 			color:green;
 			font-weight: bold;

@@ -40,7 +40,7 @@ public class BookTrainByRef extends HttpServlet {
 				+ "<tr><td>Select Class</td><td>" + "<select name='class'  required>"
 				+ "<option value='Sleeper(SL)'>Sleeper(SL)</option><option value='Second Sitting(2S)'>Second Sitting(2S)</option><option value='AC First Class(1A)'>AC First Class(1A)</option><option value='AC 2 Tier(2A)'>AC 2 Tier(2A)</option>"
 				+ "</select>" + "</td>" + "<td>Berth Preference</td><td>"
-				+ "<select name='berth'><option value='NO'>No Preference</option><option value='LB'>Lower Berth(LB)</option><option value='UB'>Lower Berth(UB)</option><option value='C'>Cabin</option></select>"
+				+ "<select name='berth'><option value='NO'>No Preference</option><option value='LB'>Lower Berth(LB)</option><option value='UB'>Upper Berth(UB)</option><option value='C'>Middle berth</option></select>"
 				+ "</td></tr>" + "</table></div>"
 				+ "<div class='tab'><p1 class='menu'><input type='submit'value='Pay And Book'></p1></div>" + "</form>");
 
